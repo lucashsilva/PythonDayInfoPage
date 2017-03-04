@@ -1,0 +1,16 @@
+@font-face { font-family: "Panton Bold"; src: url("/assets/fonts/Panton-BlackCaps.otf"); }
+@font-face { font-family: "Panton Bold Italic"; src: url("/assets/fonts/Panton-BlackitalicCaps.otf"); }
+@font-face { font-family: "Panton Light"; src: url("/assets/fonts/Panton-LightCaps.otf"); }
+@font-face { font-family: "Panton Light Italic"; src: url("/assets/fonts/Panton-LightitalicCaps.otf"); }
+
+h1, h2, h3, h4, h5, h6 { font-size: 2em; font-family: "Panton Bold"; }
+
+$white: #fff;
+$yellow: #e6c00f;
+
+button {
+    font-family: "Panton Bold";
+    border: none;
+    border-radius: 2px;
+    padding: 10px 30px;
+}

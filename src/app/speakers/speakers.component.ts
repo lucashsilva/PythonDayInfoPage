@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./speakers.component.scss']
 })
 export class SpeakersComponent implements OnInit {
-
+  speakersPhotos:String[] = ["/assets/img/palestrante_samuel.JPG"];
   constructor() { }
 
   ngOnInit() {

@@ -1,0 +1,29 @@
+@import "../../defaults";
+
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.speakers {
+    width: 100vw;
+    background: $light-grey;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-deck {
+    margin-top: 20px;
+}
+
+.card {
+    background: $light-grey;
+    border: none;
+}

@@ -106,6 +106,10 @@ Responsive Stuff
 ———————————————*/
 
 @media (max-width: 945px) {
+  section.timeline-outer {
+    width: 90%;
+  }
+
   .timeline .event::before {
     left: 0.5px;
     top: 50px;
@@ -116,7 +120,7 @@ Responsive Stuff
     font-size: 16px;
   }
   .timeline p {
-    padding-top: 30px;
+    padding-top: 20px;
   }
   section.lab h3.card-title {
     padding: 5px;
@@ -126,8 +130,8 @@ Responsive Stuff
 
 @media (max-width: 768px) {
   .timeline .event::before {
-    left: 0.5px;
-    top: 20px;
+    left: -130px;
+    top: -10px;
     min-width: 0;
     font-size: 13px;
   }

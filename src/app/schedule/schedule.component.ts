@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./schedule.component.scss']
 })
 export class ScheduleComponent implements OnInit {
+ 
+  constructor() { 
 
-  constructor() { }
+  }
 
   ngOnInit() {
   }
